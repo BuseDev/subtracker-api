@@ -1,6 +1,6 @@
-import express from 'express';
+import express from 'express'; //express modülünü içe aktarır. Bu modül, HTTP sunucusu oluşturmak için kullanılır
 
-const app = express();
+const app = express();//express() fonksiyonu ile bir app nesnesi oluşturuluyor. Bu nesne, gelen istekleri işleyip yanıt verecek olan sunucuyu temsil eder.
 
 app.get('/', (req, res) => {
     res.send('Welcome to the Subscribtion Tracker API!')
